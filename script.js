@@ -7,12 +7,13 @@ item.addEventListener('dragend', dragend);
 function dragstart(event) {
     event.target.classList.add('hold');
     setTimeout(() =>  event.target.classList.add('hide'))
-    console.log(event.target);
+    event.target.classList.remove('hovered2');
 }
 
 
 function dragend(event) {
     event.target.classList.remove('hold', 'hide');
+    event.target.classList.add('hovered2');
 }
 
 for (const placeholder of placeholders) {

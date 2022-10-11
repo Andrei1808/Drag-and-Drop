@@ -35,7 +35,7 @@ body {
   border: 1px solid #eee;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 20px;
-  background: #f7f6f7;
+  background: #7ae889;
   padding: 0.8rem 1rem;
   color: #828282;
   text-align: center;
@@ -71,13 +71,25 @@ body {
 
 .hold {
   color: rgb(241, 228, 204);
-  background-color: rgb(6, 120, 196);
+  background-color: rgb(6, 196, 54);
   border-radius: 25px;
 
 }
 
 .hovered{
-border-top: 2px rgb(231, 177, 177) solid;
+border-top: 75px rgb(198, 249, 245) solid;
+border-radius: 15px;
+transition: .2s ease-in;
+box-shadow: 5px 5px 5px #ffc085;
+ 
+}
+
+.hovered2{
+border-top: 0px rgb(198, 249, 245) solid;
+border-radius: 15px;
+transition: .2s ease-in;
+box-shadow: 5px 5px 5px #ffc085;
+
  
 }
 
